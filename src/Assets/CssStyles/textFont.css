@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates:wght@800&display=swap');
+
+
+.montFont{
+
+    /* font-family: Mont; */
+    /* font-size: 17px; */
+    font: 'Montserrat Alternates', sans-serif;
+}
+
+
+.w3rcontainer{
+   border: 1px solid #cccfdb;
+   border-radius: 2px;
+} 
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  /* color: #feed01; */
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #feed01;
+
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.setBgImg{
+  background-image: url('../images/headerBG.jpg');
+  background-color: black;
+  /* background-image: url('https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA='); */
+}
+
+.setBgImgHeader{
+  background-image: url('../images/headerBG.jpg');
+  background-color: #232222;
+  /* background-image: url('https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA='); */
+}
+.setBgImgDashboardSide{
+  background-image: url('../images/headerBG.jpg');
+  background-color: #000000;
+  /* background-image: url('https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA='); */
+}
+
+.setSideBG{
+  background-image: url('../images/sideBG.jpg');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-color: white; */
+  /* background-image: url('https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA='); */
+}
+
+
+ .spancls {
+    
+  border-top: 3px solid #feed01;
+}
+
+
+.holder {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 25px;
+}
+.tinyLine {
+    position: absolute;
+    /* Cuts off the bottom half of the pattern */
+    height: 20px;
+    /* For better cross browser consistency, make it larger with width.  */
+    width: 1000%;
+    /* And then scale it back down with scale, recentering with translateX. */
+    transform: translateX(-45%) scale(0.1);
+}
+
+.tinyLine1 {
+    background: linear-gradient(45deg, transparent, transparent 49%, #effd01 49%, transparent 51%);
+}
+.tinyLine2 {
+    background: linear-gradient(-45deg, transparent, transparent 49%, #effd01 49%, transparent 51%);
+}
+.tinyLine {
+    /* Must be after background definition. */
+    background-size: 40px 40px;
+}
+
+.cursiveFont{
+  font-family: 'Monoton', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+.stroke-none {
+  color: transparent;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: none;
+}
+
+
+
+/* .bannerMove {
+
+  position: relative;
+  animation: mymove 1s  linear 5s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+} */
+
+
+
+/* price card css */
+
+
+.priceCardParent{
+  
+}
+
+.priceCardChild{
+
+}
+
+.priceCardParent:hover .priceCardChild{
+
+  width: 100%;
+
+}
+
+
+.parentPhoneCart{}
+.childPhoneCart{
+
+  height: 0px;
+
+}
+.parentPhoneCart:hover .childPhoneCart{
+
+  height: 150px;
+
+  /* display: flex; */
+
+
+}
+.parentPhoneCart:hover .childPhoneCartButton {
+
+  display: block;
+
+
+}
+
+
+
+/* Dashboard css start  */
+
+.headerListParent{
+
+}
+.headerListChild{
+  width:0%;
+  /* display: none; */
+  background-color: transparent;
+  
+}
+.headerListParent:hover .headerListChild{
+
+  width: 100%;
+  display: block;
+  background-color: #effd01;
+
+}
+.headerListParent:hover{
+  color:#000000;
+}
+
+
+/* pageloading css start  */
+
+
+.pageLoadingCSS {
+  width: 100%;
+  height: 100%;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {
+  width:0px;
+
+  
+  }
+  to {
+  width:100%;
+  
+  }
+}
+
+
+/* phone side nested route shadow css  */
+
+
+/* profile css start  */
+
+
+.setProfileBgImg{
+  background-image: url('https://i.ibb.co/171qkYf/profilebg.jpg');
+height: 30%;
+}
