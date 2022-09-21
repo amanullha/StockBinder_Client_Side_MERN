@@ -48,17 +48,6 @@ This is a inventory management website . Admin will be able to add item and upda
 
 ## FontEnd Design 🙈 :
 
-
-
-
-
-
-
-
-
-
-
-
 <table>
  
   <tr>
