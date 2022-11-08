@@ -216,7 +216,7 @@ const NavBar = ({ children }) => {
                     <>
                         <li className='hover-underline-animation'> <NavLink style={navStyle} to='/login'>Login</NavLink> </li>
 
-                        <li className='text-center bg-[#effd01] text-black px-10 py-3 ml-3 cursor-pointer tracking-wider'> SignUp</li>
+                        <li onClick={goToSignPage} className='text-center bg-[#effd01] text-black px-10 py-3 ml-3 cursor-pointer tracking-wider'> SignUp</li>
                     </>
 
 
@@ -332,8 +332,8 @@ const NavBar = ({ children }) => {
 
                                         <img className=' h-12' src="https://i.ibb.co/YDrYGr7/Artboard-1.png" alt="" />
                                         {/* <img className='sm:w-52  w-24 h-12' src="logo.png" alt="" /> */}
-                                        
-                                        </Link>
+
+                                    </Link>
                                 </div>
 
 
